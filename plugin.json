@@ -1,0 +1,10 @@
+{
+  "id": "training",
+  "name": "Training",
+  "version": "1.0.0",
+  "operations": {
+    "training.confirm": {
+      "message": "Training está instalado!"
+    }
+  }
+}
