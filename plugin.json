@@ -9,11 +9,15 @@
   "ui": {
     "type": "button",
     "props": {
-      "title": "Confirmar Training",
+      "title": "Somar 10 + 20",
       "action": {
         "type": "request",
         "payload": {
-          "operation": "training.confirm"
+          "operation": "training.sum",
+          "payload": {
+            "a": 10,
+            "b": 20
+          }
         }
       }
     }
